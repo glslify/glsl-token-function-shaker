@@ -1,0 +1,21 @@
+{
+  "name": "glsl-token-function-shaker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stackgl/glsl-token-function-shaker.git"
+  },
+  "scripts": {
+    "test": "node test | tspec"
+  },
+  "dependencies": {
+    "glsl-token-functions": "^1.0.0"
+  },
+  "devDependencies": {
+    "glsl-token-string": "^1.0.1",
+    "glsl-tokenizer": "^2.1.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
